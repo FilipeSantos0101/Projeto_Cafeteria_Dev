@@ -73,10 +73,37 @@ section{
     cursor: pointer;
     font-size: 1rem;
     margin-top: 1rem;
+    display: inline-block;
 }
 
 .home-container{
-    background: url(/assets/);
+    background: url(/assets/home-img.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 60rem;
+}
+
+.content h3{
+    color: #fff;
+    font-size: 6rem;
+}
+
+.content p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 1rem 0;
 }
 
 
